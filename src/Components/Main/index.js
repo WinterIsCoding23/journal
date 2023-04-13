@@ -1,11 +1,7 @@
 export default function Main (){
-    return 
-        <form></form>
-}
-
-
-
-<main>
+    return (
+      <div>
+        This is Main
         <form>
           <input></input>
           <textarea></textarea>
@@ -37,5 +33,8 @@ export default function Main (){
             </li>
           </ul>
         </section>
-        Here is main
-      </main>
+      </div>
+    )
+}
+
+        
