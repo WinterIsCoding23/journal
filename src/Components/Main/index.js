@@ -1,14 +1,13 @@
 import "./Main.css";
 
+import EntryForm from "../EntryForm";
+
 export default function Main (){
     return (
       <div>
-        This is Main
-        <form>
-          <input></input>
-          <textarea></textarea>
-          <button type="submit"></button>
-        </form>
+        < EntryForm />
+
+
         <section className="Entries">
           <button className='Entries--tab'></button>
             <span className='Entries--tab__badge'></span>

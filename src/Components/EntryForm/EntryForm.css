@@ -1,0 +1,17 @@
+fieldset {
+    /* display: flex;
+    flex-direction: column;  */
+    text-align: center;
+    /* margin: auto; */
+    border:0;
+    margin: 20px 50px;
+}
+
+legend {
+    padding: 30px;;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
