@@ -1,5 +1,7 @@
+import "./Footer.css";
+
 export default function Footer (){
-    return <div className="footer">
+    return <footer className="footer">
         Journal App - 2028
-    </div>
+    </footer>
 }
