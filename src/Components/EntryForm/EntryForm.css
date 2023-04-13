@@ -8,10 +8,22 @@ fieldset {
 }
 
 legend {
-    padding: 30px;;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 form {
     display: flex;
     flex-direction: column;
+}
+
+label {
+    align-self: flex-start;
+    padding: 10px 0px;
+    margin-top:20px;
+}
+
+#notes {
+    margin-bottom: 35px    ;
 }
