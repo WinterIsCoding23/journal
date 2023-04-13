@@ -1,12 +1,13 @@
 import "./Main.css";
 
 import EntryForm from "../EntryForm";
+import Entries from "../Entries";
 
 export default function Main (){
     return (
       <div>
         < EntryForm />
-
+        < Entries /> 
 
         <section className="Entries">
           <button className='Entries--tab'></button>

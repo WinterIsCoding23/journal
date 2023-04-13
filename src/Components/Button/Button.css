@@ -1,0 +1,17 @@
+button {
+    background-color:  var(--color-nemo);
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: large;
+    border:none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--color-nemo-dark);
+}
+
+button:active{
+    background-color: var(--color-nemo-mid);
+}

@@ -1,8 +1,8 @@
 import "./EntryForm.css";
+import Button from "../Button";
 
 export default function EntryForm () {
-    return (
-        
+    return (        
         <fieldset>
             <legend>New Entry</legend>
             <form>
@@ -10,9 +10,8 @@ export default function EntryForm () {
                 <input type="text" id="motto" name="motto"></input>
                 <label htmlFor="notes">Notes</label>
                 <textarea id="notes"></textarea>
-                <button type="submit"></button>
+                <Button></Button>
             </form>
         </fieldset>
-        
   )
 }
