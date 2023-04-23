@@ -1,0 +1,29 @@
+fieldset {
+    /* display: flex;
+    flex-direction: column;  */
+    text-align: center;
+    /* margin: auto; */
+    border:0;
+    margin: 20px 50px;
+}
+
+legend {
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    align-self: flex-start;
+    padding: 10px 0px;
+    margin-top:20px;
+}
+
+#notes {
+    margin-bottom: 35px    ;
+}
